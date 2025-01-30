@@ -2,7 +2,6 @@
 "use client"
 import React, { useState } from 'react';
 import Link from "next/link";
-import ShimmerButton from "@/components/ui/shimmer-button";
 import Typography from "@mui/material/Typography";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import { GithubIcon, LinkedinIcon, Contact } from 'lucide-react';
@@ -136,18 +135,7 @@ const Profile = () => {
                   </Typography>
                 </AccordionDetails>
               ))}
-              <div className="flex flex-wrap gap-6 justify-center items-center pt-4">
-                <ShimmerButton className="min-w-[50px]">
-                <Link
-                  href="/assets/pdf/resume-it.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-5 text-white"
-                >
-                  Download Resume
-                </Link>
-                </ShimmerButton>
-              </div>
+              
             </div>
           </div>
         </article>
