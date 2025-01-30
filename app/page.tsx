@@ -5,9 +5,15 @@ import VideoPlayer from "@/components/Video";
 export default function page() {
   return (
     <>
-      <Profile />
-      <Projects />
-      <VideoPlayer videoId="1BHte2eeO45zqvBmvl-4LaS6xGOMcX5a_" />
+      <div id="profile">
+        <Profile />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="video">
+        <VideoPlayer videoId="1BHte2eeO45zqvBmvl-4LaS6xGOMcX5a_" />
+      </div>
     </>
   );
 }

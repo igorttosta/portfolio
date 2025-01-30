@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useRef } from "react";
@@ -5,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import ThemeToggle from "../ui/theme-toggle";
-import { BookAIcon, CodeXml, Contact, Folder, History, MenuIcon } from "lucide-react";
+import { CodeXml, Folder, VideoIcon, MenuIcon } from "lucide-react";
 
 interface NavigationItem {
   name: string;
@@ -27,11 +28,9 @@ interface NavigationItemProps {
 }
 
 const NAVIGATION_ITEMS: NavigationItem[] = [
-  // { name: "Projects", link: "/projects", icon: Folder },
-  // { name: "Web apps", link: "https://apps.abassdev.com", icon: CodeXml, external: true },
-  // { name: "My Story", link: "/my-story", icon: History },
-  // { name: "Blog", link: "https://abassdev.com/blog", icon: BookAIcon, margin: true, external: true },
-  // { name: "Contact Me", link: "/contact", icon: Contact },
+  { name: "Profile", link: "#profile", icon: Folder },
+  { name: "Projects", link: "#projects", icon: CodeXml },
+  { name: "Video", link: "#video", icon: VideoIcon },
 ];
 
 const NavigationItem: React.FC<NavigationItemProps> = ({ item, open, onClick }) => {
