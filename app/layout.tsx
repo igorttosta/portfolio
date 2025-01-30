@@ -4,7 +4,6 @@ import Nav from "../components/navigation/Navigation";
 import type { Metadata } from "next";
 import Theme from "../context/theme-provider";
 
-
 export const metadata: Metadata = {
   title: "Igor Tosta | Full-stack developer | Personal portfolio",
   icons: {
@@ -18,7 +17,7 @@ const orbitron = Orbitron({
   weight: ['400', '500', '600', '700'],
 });
 
-export const eduNSW = Edu_NSW_ACT_Foundation({
+const eduNSW = Edu_NSW_ACT_Foundation({
   subsets: ['latin'],
   variable: '--font-edu-nsw',
   weight: ['400'],
