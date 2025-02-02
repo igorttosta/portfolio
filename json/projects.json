@@ -37,5 +37,23 @@
         "headerLinks": { 
             "privateSource": true 
         }
+    },
+    {
+        "name": "Web Site",
+        "headerImg": "/assets/image/cieds-website.png",
+        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
+        "seeMore": { 
+            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
+            "text": "Explore the prototype..." 
+        },
+        "techs": [
+            "Figma"
+        ],
+        "headerLinks": {
+            "github": { 
+                "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
+                "icon": "BsGithub" 
+            }
+        }
     }
 ]

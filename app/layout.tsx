@@ -3,6 +3,7 @@ import { Orbitron, Edu_NSW_ACT_Foundation } from 'next/font/google';
 import Nav from "../components/navigation/Navigation";
 import type { Metadata } from "next";
 import Theme from "../context/theme-provider";
+import MuiThemeProvider from "../context/mui-theme-provider";
 
 export const metadata: Metadata = {
   title: "Igor Tosta | Full-stack developer | Personal portfolio",
@@ -28,8 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={`${orbitron.variable} ${eduNSW.variable}`}>
         <Theme>
-          <Nav />
-          <main>{children}</main>
+          <MuiThemeProvider>
+            <Nav />
+            <main>{children}</main>
+          </MuiThemeProvider>
         </Theme>
       </body>
     </html>

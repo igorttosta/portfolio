@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import ThemeToggle from "../ui/theme-toggle";
-import { CodeXml, Folder, VideoIcon, MenuIcon } from "lucide-react";
+import { CodeXml, Folder, VideoIcon, MenuIcon, BriefcaseBusiness } from "lucide-react";
 
 interface NavigationItem {
   name: string;
@@ -31,6 +31,7 @@ const NAVIGATION_ITEMS: NavigationItem[] = [
   { name: "Profile", link: "#profile", icon: Folder },
   { name: "Projects", link: "#projects", icon: CodeXml },
   { name: "Video", link: "#video", icon: VideoIcon },
+  { name: "Experiences", link: "#experiences", icon: BriefcaseBusiness },
 ];
 
 const NavigationItem: React.FC<NavigationItemProps> = ({ item, open, onClick }) => {

@@ -1,0 +1,98 @@
+[
+    {
+        "image": "/assets/image/sysmap_solutions_logo.jpeg",
+        "company": "SysMap Solutions",
+        "position": "Software Developer",
+        "period": "Oct 2024 - Present",
+        "achievements": [
+            "• Enhanced system reliability by 20% and reduced API response time by 15% through the strategic design of secure APIs and microservices, integrating Spring Boot with JWT and OAuth for robust authentication.",
+            "• Achieved 85% compliance with industry protocols and cut integration errors by 20% by leading end-to-end architecture and technical documentation efforts aligned with TMForum and OpenAPI standards.",
+            "• Streamlined deployment processes, reducing time by 25% and cutting release downtime by 15% via optimized CI/CD pipelines and improved DevOps methodologies."
+        ],
+        "context": "SysMap Solutions - A Brazilian technology company specializing in enterprise solutions for large-scale clients, focusing on secure integration, API management, and microservices architecture. My role involves the design, development, and documentation of complex distributed systems, ensuring compliance with industry standards and supporting multi-level teams in integration delivery, troubleshooting, and production support.",
+        "technologies": [
+            "• Java",
+            "• Spring Boot",
+            "• Azure",
+            "• Docker",
+            "• Kafka",
+            "• JUnit, Mockito",
+            "• CI/CD tools"
+        ],
+        "activities": [
+            "• Designed and developed APIs and microservices ensuring secure integration with JWT and OAuth.",
+            "• Led technical documentation efforts to align solutions with TMForum and OpenAPI standards.",
+            "• Managed multi-level teams, focusing on integration delivery, troubleshooting, and production support.",
+            "• Enhanced CI/CD pipelines, reducing deployment time and release downtime.",
+            "• Implemented distributed systems with Kafka to improve system reliability."
+        ]
+    },
+    {
+        "image": "/assets/image/sysmap_solutions_logo.jpeg",
+        "company": "SysMap Solutions",
+        "position": "Junior Software Developer",
+        "period": "Sep 2022 - Sep 2024",
+        "achievements": [
+            "• Led the migration of 20 GB of data daily between academic systems, leveraging Kafka and Kubernetes to boost operational throughput by 15% and reduce latency by 20%.",
+            "• Promoted to team leader after one year, enhancing cross-department collaboration, achieving 65% on-time delivery, and reducing incident resolution time by 75%.",
+            "• Increased team productivity by 40% through the optimization of workflows and strategic prioritization, fostering smoother interdepartmental collaboration."
+        ],
+        "context": "My role involved leading data migration initiatives and managing team performance to ensure timely project delivery and operational excellence.",
+        "technologies": [
+            "• Kafka",
+            "• Kubernetes",
+            "• ksqlDB",
+            "• Oracle",
+            "• SQL Server"
+        ],
+        "activities": [
+            "• Led the migration of large data volumes between systems, optimizing throughput and reducing latency.",
+            "• Promoted to team leader, managing production deliveries and enhancing issue resolution processes.",
+            "• Implemented process optimizations and prioritized tasks to boost team productivity and collaboration."
+        ]
+    },
+    {
+        "image": "/assets/image/ciedsbrasil_logo.jpeg",
+        "company": "CIEDS",
+        "position": "UX/UI Designer",
+        "period": "Aug 2022 - Sep 2022",
+        "achievements": [
+            "• Successfully led a website redesign project, creating user flows, wireframes, and prototypes in Figma, which increased stakeholder satisfaction by 30%.",
+            "• Prioritized mobile responsiveness and accessibility by delivering 15 high-fidelity wireframes and 3 interactive prototypes, resulting in a 25% decrease in implementation time.",
+            "• Conducted user testing, uncovering a 40% improvement in task completion rates, ensuring an intuitive and user-friendly experience."
+        ],
+        "context": "CIEDS is a social nonprofit institution, voted 67th Best NGO in the world and 3rd Best NGO in Brazil (NGO Advisor). We build networks for the prosperity of people, communities, and society based on knowledge, cooperation, and empowerment. We understand prosperity as better health, better food, better income, respect for one another and the environment, and, above all, confidence in our future.",
+        "technologies": [
+            "• Figma"
+        ],
+        "activities": [
+            "• Designed user flows and developed wireframes and prototypes to enhance the website's interface.",
+            "• Delivered high-fidelity wireframes and interactive prototypes, prioritizing mobile responsiveness and accessibility.",
+            "• Conducted user testing to assess design effectiveness, leading to significant improvements in task completion rates."
+        ]
+    },
+    {
+        "image": "/assets/image/lojas_quero_quero_s_a_logo.jpeg",
+        "company": "Lojas Quero-Quero S.A.",
+        "position": "Web Development Intern",
+        "period": "Jan 2022 - Apr 2022",
+        "achievements": [
+            "• Enhanced purchase automation by 40% through CSV integration, gaining hands-on technical skills in full-stack development with Node.js, Python, HTML5, CSS3, and JavaScript.",
+            "• Optimized code for system performance, decreasing downtime by 15% and improving load speed by 20% through active debugging and maintenance.",
+            "• Boosted team productivity by 10% and improved system reliability by applying full-stack skills gained through real-world projects, reinforcing team effectiveness and output."
+        ],
+        "context": "Founded in 1967 in Santo Cristo, RS, Lojas Quero-Quero offers a broad product range in construction, appliances, and furniture, along with VerdeCard credit and financial services. Focused on integrity and teamwork, it has grown across Brazil, earning GPTW certification as one of the best companies to work for.",
+        "technologies": [
+            "• Node.js",
+            "• Python",
+            "• HTML5",
+            "• CSS3",
+            "• JavaScript"
+        ],
+        "activities": [
+            "• Participated in training to enhance full system development skills, implementing various technologies.",
+            "• Developed and maintained systems, optimizing code to improve performance and reduce downtime.",
+            "• Engaged in real-world projects that contributed to team productivity and enhanced overall system reliability."
+        ]
+    }
+]
