@@ -5,11 +5,12 @@
         "position": "Software Developer",
         "period": "Oct 2024 - Present",
         "achievements": [
-            "• Enhanced system reliability by 20% and reduced API response time by 15% through the strategic design of secure APIs and microservices, integrating Spring Boot with JWT and OAuth for robust authentication.",
-            "• Achieved 85% compliance with industry protocols and cut integration errors by 20% by leading end-to-end architecture and technical documentation efforts aligned with TMForum and OpenAPI standards.",
-            "• Streamlined deployment processes, reducing time by 25% and cutting release downtime by 15% via optimized CI/CD pipelines and improved DevOps methodologies."
+            "• Increased system reliability by 20% and reduced API response time by 15% by designing secure, containerized microservices using Spring Boot, JWT, OAuth, and Docker.",
+            "• Led the implementation of scalable microservices with Docker and Kubernetes, improving portability and operational efficiency.",
+            "• Ensured 85% compliance with industry standards and reduced integration errors by 20% by leading the end-to-end architecture and technical documentation aligned with TMForum and OpenAPI.",
+            "• Optimized CI/CD pipelines, reducing deployment time by 25% and cutting release downtime by 15%, leveraging Docker, Kubernetes, and DevOps best practices."
         ],
-        "context": "SysMap Solutions - A Brazilian technology company specializing in enterprise solutions for large-scale clients, focusing on secure integration, API management, and microservices architecture. My role involves the design, development, and documentation of complex distributed systems, ensuring compliance with industry standards and supporting multi-level teams in integration delivery, troubleshooting, and production support.",
+        "context": "I design, develop, and document distributed systems, ensuring compliance with industry standards. I work with Docker and Kubernetes for containerization and scalability while collaborating with cross-functional teams to optimize integration, monitoring, and production support.",
         "technologies": [
             "• Java",
             "• Spring Boot",
@@ -20,11 +21,11 @@
             "• CI/CD tools"
         ],
         "activities": [
-            "• Designed and developed APIs and microservices ensuring secure integration with JWT and OAuth.",
-            "• Led technical documentation efforts to align solutions with TMForum and OpenAPI standards.",
-            "• Managed multi-level teams, focusing on integration delivery, troubleshooting, and production support.",
-            "• Enhanced CI/CD pipelines, reducing deployment time and release downtime.",
-            "• Implemented distributed systems with Kafka to improve system reliability."
+            "• Designed and developed secure APIs and microservices, integrating JWT, OAuth, and Docker for authentication and scalability.",
+            "• Led technical documentation efforts, ensuring compliance with TMForum and OpenAPI standards.",
+            "• Managed cross-functional teams, focusing on integration delivery, troubleshooting, and production support.",
+            "• Optimized CI/CD pipelines, reducing deployment time by 25% and release downtime by 15%.",
+            "• Implemented distributed systems using Kafka and Docker, enhancing system reliability and scalability."
         ]
     },
     {
@@ -33,11 +34,12 @@
         "position": "Junior Software Developer",
         "period": "Sep 2022 - Sep 2024",
         "achievements": [
-            "• Led the migration of 20 GB of data daily between academic systems, leveraging Kafka and Kubernetes to boost operational throughput by 15% and reduce latency by 20%.",
-            "• Promoted to team leader after one year, enhancing cross-department collaboration, achieving 65% on-time delivery, and reducing incident resolution time by 75%.",
-            "• Increased team productivity by 40% through the optimization of workflows and strategic prioritization, fostering smoother interdepartmental collaboration."
+            "• Migrated 20GB of data daily between academic systems using Kafka, Kubernetes, and Docker, increasing operational throughput by 15% and reducing latency by 20%.",
+            "• Promoted to team leader after one year, managing critical deployments, optimizing service integrations, and reducing incident resolution time by 75%.",
+            "• Implemented automated CI/CD pipelines with Docker, achieving 65% on-time deliveries and improving system stability and efficiency.",
+            "• Boosted team productivity by 40% by optimizing workflows and prioritizing strategic tasks, fostering better collaboration."
         ],
-        "context": "My role involved leading data migration initiatives and managing team performance to ensure timely project delivery and operational excellence.",
+        "context": "I was responsible for large-scale data migration and internal process optimization, leveraging Kafka, Kubernetes, and Docker to enhance operational efficiency. Later, I led a team, managing strategic deliveries and improving cross-team collaboration.",
         "technologies": [
             "• Kafka",
             "• Kubernetes",
@@ -46,9 +48,10 @@
             "• SQL Server"
         ],
         "activities": [
-            "• Led the migration of large data volumes between systems, optimizing throughput and reducing latency.",
-            "• Promoted to team leader, managing production deliveries and enhancing issue resolution processes.",
-            "• Implemented process optimizations and prioritized tasks to boost team productivity and collaboration."
+            "• Led the migration of large-scale datasets across systems using Kafka and Kubernetes, increasing throughput by 15% and reducing latency by 20%.",
+            "• Promoted to team leader, overseeing production deliveries, improving incident resolution time by 75%, and driving cross-team collaboration.",
+            "• Implemented workflow optimizations and strategic task prioritization, boosting team productivity by 40%.",
+            "• Developed automated deployment pipelines using Docker and CI/CD, improving system efficiency and release consistency."
         ]
     },
     {
@@ -77,11 +80,11 @@
         "position": "Web Development Intern",
         "period": "Jan 2022 - Apr 2022",
         "achievements": [
-            "• Enhanced purchase automation by 40% through CSV integration, gaining hands-on technical skills in full-stack development with Node.js, Python, HTML5, CSS3, and JavaScript.",
-            "• Optimized code for system performance, decreasing downtime by 15% and improving load speed by 20% through active debugging and maintenance.",
-            "• Boosted team productivity by 10% and improved system reliability by applying full-stack skills gained through real-world projects, reinforcing team effectiveness and output."
+            "• Automated purchase processes by 40% through CSV integration, utilizing Node.js, Python, Docker, and CI/CD.",
+            "• Optimized system code and monitoring, reducing downtime by 15% and improving loading speed by 20%.",
+            "• Contributed to full-stack development, increasing team productivity by 10% and improving system reliability."
         ],
-        "context": "Founded in 1967 in Santo Cristo, RS, Lojas Quero-Quero offers a broad product range in construction, appliances, and furniture, along with VerdeCard credit and financial services. Focused on integrity and teamwork, it has grown across Brazil, earning GPTW certification as one of the best companies to work for.",
+        "context": "I worked on full-stack development and process automation, focusing on efficient integrations and system performance optimization using Docker and monitoring tools.",
         "technologies": [
             "• Node.js",
             "• Python",
@@ -90,9 +93,10 @@
             "• JavaScript"
         ],
         "activities": [
-            "• Participated in training to enhance full system development skills, implementing various technologies.",
-            "• Developed and maintained systems, optimizing code to improve performance and reduce downtime.",
-            "• Engaged in real-world projects that contributed to team productivity and enhanced overall system reliability."
+            "• Gained hands-on experience in full-stack development, working with Node.js, Python, Docker, and CI/CD pipelines.",
+            "• Developed and maintained automated processes, improving system efficiency and reducing downtime by 15%.",
+            "• Optimized code performance, enhancing system reliability and increasing team productivity by 10%.",
+            "• Contributed to real-world projects, reinforcing best practices in software development and system optimization."
         ]
     }
 ]
