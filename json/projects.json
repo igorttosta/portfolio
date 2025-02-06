@@ -16,7 +16,8 @@
             "MUI"   
         ],
         "headerLinks": {
-            "github": { 
+            "link": { 
+                "privateSource": false,
                 "url": "https://github.com/igorttosta/Point-Control", 
                 "icon": "BsGithub" 
             }
@@ -35,16 +36,17 @@
             "Express.js"
         ],
         "headerLinks": {
-            "privateSource": { 
+            "link": { 
                 "privateSource": true,
-                "icon": "SiPrivateinternetaccess"
+                "url": "https://github.com/igorttosta", 
+                "icon": "SiPrivateinternetaccess" 
             }
         }
     },
     {
         "name": "Web Site",
         "headerImg": "/assets/image/cieds-website.png",
-        "description": "A prototype remodeling the appearance and user flow of the website made for an NGO.",
+        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
         "seeMore": { 
             "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
             "text": "Explore the prototype..." 
@@ -53,7 +55,8 @@
             "Figma"
         ],
         "headerLinks": {
-            "figma": { 
+            "link": { 
+                "privateSource": false,
                 "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
                 "icon": "FaFigma" 
             }
