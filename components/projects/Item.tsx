@@ -43,7 +43,12 @@ const iconsMap: Record<string, React.ElementType> = {
 
 const PrivateSourceButton = () => (
     <Button variant="outline" size="sm" asChild>
-        <Link href="https://github.com/igorttosta" className="flex items-center gap-2 group">
+        <Link 
+            href="https://github.com/igorttosta" 
+            className="flex items-center gap-2 group"
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
             <LockKeyhole className="h-4 w-4 transition-transform group-hover:scale-110" />
             <span>Private source</span>
         </Link>
@@ -84,7 +89,12 @@ export default function Item({
                             <PrivateSourceButton />
                         ) : (
                             <Button variant="secondary" size="sm" asChild className="transform -translate-y-2 transition-all duration-300 hover:scale-105">
-                                <Link href={headerLinks.link.url || "#"} className="flex items-center gap-2">
+                                <Link 
+                                    href={headerLinks.link.url || "#"} 
+                                    className="flex items-center gap-2 group"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
                                     {IconComponent && <IconComponent className="h-4 w-4" />}
                                     View Source
                                 </Link>
@@ -104,7 +114,12 @@ export default function Item({
                                 <PrivateSourceButton />
                             ) : (
                                 <Button variant="ghost" size="sm" asChild className="hidden sm:flex">
-                                    <Link href={headerLinks.link.url || "#"} className="flex items-center gap-2 group">
+                                    <Link 
+                                        href={headerLinks.link.url || "#"} 
+                                        className="flex items-center gap-2 group"
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                    >
                                         {IconComponent && <IconComponent className="h-4 w-4 transition-transform group-hover:scale-110" />}
                                         <span className="hidden sm:inline">Source</span>
                                     </Link>

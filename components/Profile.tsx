@@ -31,7 +31,7 @@ const SOCIAL_LINKS = [
 ];
 
 const ProfileImage = () => (
-  <div className="relative group mx-auto md:mx-10 w-fit">
+  <div className="relative group mx-auto w-fit">
     <div className="absolute -inset-1 bg-gradient-to-r from-primary via-violet-500 to-blue-500 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-500">
       <div className="absolute inset-0 animate-spin-slow" />
     </div>

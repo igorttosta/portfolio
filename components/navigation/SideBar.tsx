@@ -13,7 +13,7 @@ interface NavigationItem {
   link: string;
   icon: React.ElementType;
   margin?: boolean;
-  external?: boolean;
+  target?: string;
 }
 
 interface LogoProps {
@@ -32,18 +32,17 @@ const NAVIGATION_ITEMS: NavigationItem[] = [
   { name: "Projects", link: "#projects", icon: Folder },
   { name: "Video", link: "#video", icon: VideoIcon },
   { name: "Experiences", link: "#experiences", icon: BriefcaseBusiness },
-  { name: "Code", link: "https://github.com/igorttosta/portfolio", icon: CodeXml },
+  { name: "Code", link: "https://github.com/igorttosta/portfolio", icon: CodeXml, target: "_blank" },
 ];
 
 const NavigationItem: React.FC<NavigationItemProps> = ({ item, open, onClick }) => {
-  const isExternal = item.external;
 
   return (
     <Link
       href={item.link}
       onClick={onClick}
-      target={isExternal ? "_blank" : undefined}
-      rel={isExternal ? "noopener noreferrer" : undefined}
+      target={item.target}
+      rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
       className={cn(
         "group flex items-center text-sm gap-3.5 font-medium p-2",
         "hover:text-gray-100 hover:bg-gray-800 rounded-md",
@@ -103,14 +102,12 @@ const Sidebar = () => {
   const [open, setOpen] = React.useState(false);
   const sidebarRef = useRef<HTMLDivElement>(null);
 
-  // Close sidebar on route change
   React.useEffect(() => {
     const handleRouteChange = () => setOpen(false);
     window.addEventListener("popstate", handleRouteChange);
     return () => window.removeEventListener("popstate", handleRouteChange);
   }, []);
 
-  // Handle ESC key to close sidebar
   React.useEffect(() => {
     const handleEscape = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -121,7 +118,6 @@ const Sidebar = () => {
     return () => document.removeEventListener("keydown", handleEscape);
   }, []);
 
-  // Close sidebar on click outside
   React.useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
