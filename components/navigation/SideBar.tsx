@@ -13,6 +13,7 @@ interface NavigationItem {
   link: string;
   icon: React.ElementType;
   margin?: boolean;
+  external?: boolean;
   target?: string;
 }
 
@@ -28,21 +29,22 @@ interface NavigationItemProps {
 }
 
 const NAVIGATION_ITEMS: NavigationItem[] = [
-  { name: "Profile", link: "#profile", icon: CircleUser },
-  { name: "Projects", link: "#projects", icon: Folder },
-  { name: "Video", link: "#video", icon: VideoIcon },
-  { name: "Experiences", link: "#experiences", icon: BriefcaseBusiness },
-  { name: "Code", link: "https://github.com/igorttosta/portfolio", icon: CodeXml, target: "_blank" },
+  { name: "Profile", link: "#profile", icon: CircleUser, external: false },
+  { name: "Projects", link: "#projects", icon: Folder, external: false },
+  { name: "Video", link: "#video", icon: VideoIcon, external: false },
+  { name: "Experiences", link: "#experiences", icon: BriefcaseBusiness, external: false },
+  { name: "Code", link: "https://github.com/igorttosta/portfolio", icon: CodeXml, target: "_blank", external: true },
 ];
 
 const NavigationItem: React.FC<NavigationItemProps> = ({ item, open, onClick }) => {
+  const isExternal = item.external;
 
   return (
     <Link
       href={item.link}
-      onClick={onClick}
-      target={item.target}
-      rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
+      onClick={!isExternal ? onClick : undefined}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
       className={cn(
         "group flex items-center text-sm gap-3.5 font-medium p-2",
         "hover:text-gray-100 hover:bg-gray-800 rounded-md",
