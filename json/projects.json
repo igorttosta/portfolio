@@ -1,6 +1,7 @@
 [
     {
         "name": "Point-Control",
+        "category": "Fullstack",
         "headerImg": "/assets/image/point-control.png",
         "description": "This project is a backend API built with NestJS that allows users to “clock in” and have a history of hours worked, it also has UX/UI modeling and a frontend to provide a better experience.",
         "seeMore": { 
@@ -25,6 +26,7 @@
     },
     {
         "name": "E-Commerce",
+        "category": "Fullstack",
         "headerImg": "/assets/image/e-commerce.png",
         "description": "A website built with the aim of purchasing and selling products, also has a quick purchase tool through an excel file.",
         "techs": [
@@ -44,7 +46,8 @@
         }
     },
     {
-        "name": "Web Site",
+        "name": "CIEDS - Web Site",
+        "category": "UI/UX Design",
         "headerImg": "/assets/image/cieds-website.png",
         "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
         "seeMore": { 

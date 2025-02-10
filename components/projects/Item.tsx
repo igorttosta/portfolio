@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ExternalLink, LockKeyhole } from 'lucide-react'
+import Typography from "@mui/material/Typography";
 
 interface HeaderLink {
     privateSource: boolean
@@ -24,6 +25,7 @@ interface SeeMore {
 
 interface ItemProps {
     name: string
+    category: string
     description: string
     headerImg: string
     seeMore?: SeeMore
@@ -57,6 +59,7 @@ const PrivateSourceButton = () => (
 
 export default function Item({
     name,
+    category,
     headerImg,
     description,
     seeMore,
@@ -105,36 +108,18 @@ export default function Item({
             </CardHeader>
             <CardContent className="p-6 flex flex-col flex-grow space-y-4">
                 <div className="flex items-start justify-between gap-4">
-                    <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/80 group-hover:from-primary group-hover:to-primary/80 transition-all duration-300">
+                    <Typography variant="h5" className="text-primary">
                         {name}
-                    </h2>
-                    {headerLinks && (
-                        <div className="flex gap-2">
-                            {headerLinks.link.privateSource ? (
-                                <PrivateSourceButton />
-                            ) : (
-                                <Button variant="ghost" size="sm" asChild className="hidden sm:flex">
-                                    <Link 
-                                        href={headerLinks.link.url || "#"} 
-                                        className="flex items-center gap-2 group"
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                    >
-                                        {IconComponent && <IconComponent className="h-4 w-4 transition-transform group-hover:scale-110" />}
-                                        <span className="hidden sm:inline">Source</span>
-                                    </Link>
-                                </Button>
-                            )}
-                        </div>
-                    )}
+                    </Typography>
+                    <Typography variant="body2" className="text-primary">
+                        {category}
+                    </Typography>
                 </div>
-
-                <p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 flex-grow">
+                <Typography variant="body2" className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 flex-grow">
                     {description}
-                </p>
-
+                </Typography>
                 {seeMore && (
-                    <p className="text-sm">
+                    <Typography className="text-sm">
                         {seeMore.before}{" "}
                         <Link
                             href={seeMore.url || "#"}
@@ -144,7 +129,7 @@ export default function Item({
                             <ExternalLink className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
                         </Link>{" "}
                         {seeMore.after}
-                    </p>
+                    </Typography>
                 )}
             </CardContent>
             <CardFooter className="flex flex-wrap gap-2 p-6 pt-0">

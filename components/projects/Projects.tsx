@@ -15,6 +15,7 @@ const Projects = () => {
                     <Item
                         key={index}
                         name={project.name}
+                        category={project.category}
                         headerImg={project.headerImg}
                         description={project.description}
                         seeMore={project.seeMore}
