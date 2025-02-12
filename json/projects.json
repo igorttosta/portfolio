@@ -25,6 +25,47 @@
         }
     },
     {
+        "name": "Social-Network",
+        "category": "Fullstack",
+        "headerImg": "/assets/image/social-network.png",
+        "description": "This fullstack project is a social network that allows you to create a profile, a post, follow other profiles, comment on publications, among other points.",
+        "techs": [
+            "Node.js", 
+            "RabbitMQ", 
+            "MinIO", 
+            "Swagger", 
+            "React.js", 
+            "MUI"
+        ],
+        "headerLinks": {
+            "link": { 
+                "privateSource": false,
+                "url": "https://github.com/igorttosta/Social-Network.git", 
+                "icon": "BsGithub" 
+            }
+        }
+    },
+    {
+        "name": "CIEDS - Web Site",
+        "category": "UI/UX Design",
+        "headerImg": "/assets/image/cieds-website.png",
+        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
+        "seeMore": { 
+            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
+            "text": "Explore the prototype..." 
+        },
+        "techs": [
+            "Figma"
+        ],
+        "headerLinks": {
+            "link": { 
+                "privateSource": false,
+                "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
+                "icon": "FaFigma" 
+            }
+        }
+    },
+    {
         "name": "E-Commerce",
         "category": "Fullstack",
         "headerImg": "/assets/image/e-commerce.png",
@@ -46,22 +87,22 @@
         }
     },
     {
-        "name": "CIEDS - Web Site",
-        "category": "UI/UX Design",
-        "headerImg": "/assets/image/cieds-website.png",
-        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
-        "seeMore": { 
-            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
-            "text": "Explore the prototype..." 
-        },
+        "name": "Kafka-Connect",
+        "category": "Data Engginer",
+        "headerImg": "/assets/image/data-migration.png",
+        "description": "A small-scale data migration project between two databases",
         "techs": [
-            "Figma"
+            "Kafka", 
+            "ksqlDB", 
+            "Docker", 
+            "PostgreSQL", 
+            "SQL"
         ],
         "headerLinks": {
             "link": { 
                 "privateSource": false,
-                "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
-                "icon": "FaFigma" 
+                "url": "https://github.com/igorttosta/Kafka-Connect.git", 
+                "icon": "BsGithub" 
             }
         }
     }
