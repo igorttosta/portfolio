@@ -1,26 +1,28 @@
 [
     {
-        "name": "Point-Control",
+        "name": "VetCare",
         "category": "Fullstack",
-        "headerImg": "/assets/image/point-control.png",
-        "description": "This project is a backend API built with NestJS that allows users to “clock in” and have a history of hours worked, it also has UX/UI modeling and a frontend to provide a better experience.",
+        "headerImg": "/assets/image/vetCare.png",
+        "description": "This project is a complete platform for managing veterinary clinics, allowing appointment scheduling, pet registration, and medical history tracking.",
         "seeMore": { 
-            "url": "https://github.com/igorttosta/Point-Control", 
+            "url": "https://veterinary-5xdsjww4x-igor-tostas-projects.vercel.app/", 
             "text": "Explore the hub..." 
         },
         "techs": [
-            "Nest.js",
-            "Swagger",
+            "Next.js",
+            "NestJS",
+            "Kafka",
+            "Docker",
+            "PostgreSQL",
             "Jest",
-            "Figma",
-            "React.js",
-            "MUI"   
+            "React Native",
+            "MUI/Tailwind"
         ],
         "headerLinks": {
             "link": { 
                 "privateSource": false,
                 "url": "https://github.com/igorttosta/Point-Control", 
-                "icon": "BsGithub" 
+                "icon": "IoLogoVercel" 
             }
         }
     },
@@ -46,26 +48,6 @@
         }
     },
     {
-        "name": "CIEDS - Web Site",
-        "category": "UI/UX Design",
-        "headerImg": "/assets/image/cieds-website.png",
-        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
-        "seeMore": { 
-            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
-            "text": "Explore the prototype..." 
-        },
-        "techs": [
-            "Figma"
-        ],
-        "headerLinks": {
-            "link": { 
-                "privateSource": false,
-                "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
-                "icon": "FaFigma" 
-            }
-        }
-    },
-    {
         "name": "E-Commerce",
         "category": "Fullstack",
         "headerImg": "/assets/image/e-commerce.png",
@@ -87,6 +69,26 @@
         }
     },
     {
+        "name": "CIEDS - Web Site",
+        "category": "UI/UX Design",
+        "headerImg": "/assets/image/cieds-website.png",
+        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
+        "seeMore": { 
+            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
+            "text": "Explore the prototype..." 
+        },
+        "techs": [
+            "Figma"
+        ],
+        "headerLinks": {
+            "link": { 
+                "privateSource": false,
+                "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
+                "icon": "FaFigma" 
+            }
+        }
+    },
+    {
         "name": "Kafka-Connect",
         "category": "Data Engginer",
         "headerImg": "/assets/image/data-migration.png",
@@ -102,6 +104,31 @@
             "link": { 
                 "privateSource": false,
                 "url": "https://github.com/igorttosta/Kafka-Connect.git", 
+                "icon": "BsGithub" 
+            }
+        }
+    },
+    {
+        "name": "Point-Control",
+        "category": "Fullstack",
+        "headerImg": "/assets/image/point-control.png",
+        "description": "This project is a backend API built with NestJS that allows users to “clock in” and have a history of hours worked, it also has UX/UI modeling and a frontend to provide a better experience.",
+        "seeMore": { 
+            "url": "https://github.com/igorttosta/Point-Control", 
+            "text": "Explore the hub..." 
+        },
+        "techs": [
+            "Nest.js",
+            "Swagger",
+            "Jest",
+            "Figma",
+            "React.js",
+            "MUI"   
+        ],
+        "headerLinks": {
+            "link": { 
+                "privateSource": false,
+                "url": "https://github.com/igorttosta/Point-Control", 
                 "icon": "BsGithub" 
             }
         }

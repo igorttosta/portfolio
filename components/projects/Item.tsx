@@ -40,7 +40,8 @@ const iconsMap: Record<string, React.ElementType> = {
     LockKeyhole: LockKeyhole,
     BsGithub: require('react-icons/bs').BsGithub,
     FaFigma: require('react-icons/fa').FaFigma,
-    SiPrivateinternetaccess: require('react-icons/si').SiPrivateinternetaccess
+    SiPrivateinternetaccess: require('react-icons/si').SiPrivateinternetaccess,
+    IoLogoVercel: require('react-icons/io5').IoLogoVercel
 }
 
 const PrivateSourceButton = () => (
