@@ -1,16 +1,34 @@
 [
     {
+        "image": "/assets/image/yuzer_logo.png",
+        "company": "Yuzer",
+        "position": "Desenvolvedor de Software",
+        "period": "Mai 2025 - Atual",
+        "achievements": [
+            "• Reduzi em 30% as indisponibilidades do sistema de processamento de pedidos, diagnosticando e corrigindo incidentes críticos em produção.",
+            "• Diminuí em 25% as inconsistências e o retrabalho, reestruturando as regras de negócio do motor de precificação.",
+            "• Mantive a estabilidade contínua do sistema, entregando correções e melhorias técnicas alinhadas a requisitos de negócio."
+        ],
+        "context": "Atuo no desenvolvimento e na manutenção de um sistema de processamento de pedidos, com foco em estabilidade, diagnóstico e correção de incidentes críticos e evolução das regras de negócio do motor de precificação.",
+        "technologies": [],
+        "activities": [
+            "• Diagnostiquei e corrigi incidentes críticos em produção, reduzindo indisponibilidades do sistema de processamento de pedidos.",
+            "• Reestruturei regras de negócio do motor de precificação, reduzindo inconsistências e retrabalho.",
+            "• Entreguei correções e melhorias técnicas alinhadas aos requisitos de negócio, priorizando estabilidade e continuidade do sistema."
+        ]
+    },
+    {
         "image": "/assets/image/sysmap_solutions_logo.jpeg",
         "company": "SysMap Solutions",
-        "position": "Software Developer",
-        "period": "Oct 2024 - Present",
+        "position": "Desenvolvedor de Software",
+        "period": "Out 2024 - Abr 2025",
         "achievements": [
-            "• Increased system reliability by 20% and reduced API response time by 15% by designing secure, containerized microservices using Spring Boot, JWT, OAuth, and Docker.",
-            "• Led the implementation of scalable microservices with Docker and Kubernetes, improving portability and operational efficiency.",
-            "• Ensured 85% compliance with industry standards and reduced integration errors by 20% by leading the end-to-end architecture and technical documentation aligned with TMForum and OpenAPI.",
-            "• Optimized CI/CD pipelines, reducing deployment time by 25% and cutting release downtime by 15%, leveraging Docker, Kubernetes, and DevOps best practices."
+            "• Aumentei em 20% a confiabilidade do sistema e reduzi em 15% o tempo de resposta das APIs, desenhando microsserviços seguros e conteinerizados com Spring Boot, JWT, OAuth e Docker.",
+            "• Liderei a implementação de microsserviços escaláveis com Docker e Kubernetes, melhorando a portabilidade e a eficiência operacional.",
+            "• Garanti 85% de conformidade com padrões do setor e reduzi em 20% os erros de integração, liderando a arquitetura ponta a ponta e a documentação técnica alinhada aos padrões TMForum e OpenAPI.",
+            "• Otimizei pipelines de CI/CD, reduzindo o tempo de deploy em 25% e o downtime de releases em 15%, aplicando Docker, Kubernetes e boas práticas de DevOps."
         ],
-        "context": "I design, develop, and document distributed systems, ensuring compliance with industry standards. I work with Docker and Kubernetes for containerization and scalability while collaborating with cross-functional teams to optimize integration, monitoring, and production support.",
+        "context": "Desenho, desenvolvo e documento sistemas distribuídos, garantindo conformidade com padrões do setor. Trabalho com Docker e Kubernetes para conteinerização e escalabilidade, colaborando com times multidisciplinares para otimizar integração, monitoramento e suporte em produção.",
         "technologies": [
             "• Java",
             "• Spring Boot",
@@ -18,28 +36,28 @@
             "• Docker",
             "• Kafka",
             "• JUnit, Mockito",
-            "• CI/CD tools"
+            "• Ferramentas de CI/CD"
         ],
         "activities": [
-            "• Designed and developed secure APIs and microservices, integrating JWT, OAuth, and Docker for authentication and scalability.",
-            "• Led technical documentation efforts, ensuring compliance with TMForum and OpenAPI standards.",
-            "• Managed cross-functional teams, focusing on integration delivery, troubleshooting, and production support.",
-            "• Optimized CI/CD pipelines, reducing deployment time by 25% and release downtime by 15%.",
-            "• Implemented distributed systems using Kafka and Docker, enhancing system reliability and scalability."
+            "• Desenhei e desenvolvi APIs e microsserviços seguros, integrando JWT, OAuth e Docker para autenticação e escalabilidade.",
+            "• Liderei esforços de documentação técnica, garantindo conformidade com os padrões TMForum e OpenAPI.",
+            "• Gerenciei times multidisciplinares, com foco em entrega de integrações, troubleshooting e suporte em produção.",
+            "• Otimizei pipelines de CI/CD, reduzindo o tempo de deploy em 25% e o downtime de releases em 15%.",
+            "• Implementei sistemas distribuídos usando Kafka e Docker, aumentando a confiabilidade e a escalabilidade do sistema."
         ]
     },
     {
         "image": "/assets/image/sysmap_solutions_logo.jpeg",
         "company": "SysMap Solutions",
-        "position": "Junior Software Developer",
-        "period": "Sep 2022 - Sep 2024",
+        "position": "Desenvolvedor de Software Júnior",
+        "period": "Set 2022 - Set 2024",
         "achievements": [
-            "• Migrated 20GB of data daily between academic systems using Kafka, Kubernetes, and Docker, increasing operational throughput by 15% and reducing latency by 20%.",
-            "• Promoted to team leader after one year, managing critical deployments, optimizing service integrations, and reducing incident resolution time by 75%.",
-            "• Implemented automated CI/CD pipelines with Docker, achieving 65% on-time deliveries and improving system stability and efficiency.",
-            "• Boosted team productivity by 40% by optimizing workflows and prioritizing strategic tasks, fostering better collaboration."
+            "• Migrei 20GB de dados diários entre sistemas acadêmicos usando Kafka, Kubernetes e Docker, aumentando a vazão operacional em 15% e reduzindo a latência em 20%.",
+            "• Fui promovido a líder de equipe após um ano, gerenciando deploys críticos, otimizando integrações de serviços e reduzindo o tempo de resolução de incidentes em 75%.",
+            "• Implementei pipelines automatizados de CI/CD com Docker, alcançando 65% de entregas no prazo e melhorando a estabilidade e eficiência do sistema.",
+            "• Aumentei a produtividade da equipe em 40% otimizando fluxos de trabalho e priorizando tarefas estratégicas, fortalecendo a colaboração."
         ],
-        "context": "I was responsible for large-scale data migration and internal process optimization, leveraging Kafka, Kubernetes, and Docker to enhance operational efficiency. Later, I led a team, managing strategic deliveries and improving cross-team collaboration.",
+        "context": "Fui responsável pela migração de dados em larga escala e pela otimização de processos internos, utilizando Kafka, Kubernetes e Docker para melhorar a eficiência operacional. Posteriormente, liderei uma equipe, gerenciando entregas estratégicas e melhorando a colaboração entre times.",
         "technologies": [
             "• Kafka",
             "• Kubernetes",
@@ -48,43 +66,43 @@
             "• SQL Server"
         ],
         "activities": [
-            "• Led the migration of large-scale datasets across systems using Kafka and Kubernetes, increasing throughput by 15% and reducing latency by 20%.",
-            "• Promoted to team leader, overseeing production deliveries, improving incident resolution time by 75%, and driving cross-team collaboration.",
-            "• Implemented workflow optimizations and strategic task prioritization, boosting team productivity by 40%.",
-            "• Developed automated deployment pipelines using Docker and CI/CD, improving system efficiency and release consistency."
+            "• Liderei a migração de grandes volumes de dados entre sistemas, usando Kafka e Kubernetes, aumentando a vazão em 15% e reduzindo a latência em 20%.",
+            "• Fui promovido a líder de equipe, supervisionando entregas em produção, melhorando o tempo de resolução de incidentes em 75% e impulsionando a colaboração entre times.",
+            "• Implementei otimizações de fluxo de trabalho e priorização estratégica de tarefas, aumentando a produtividade da equipe em 40%.",
+            "• Desenvolvi pipelines de deploy automatizados usando Docker e CI/CD, melhorando a eficiência do sistema e a consistência dos releases."
         ]
     },
     {
         "image": "/assets/image/ciedsbrasil_logo.jpeg",
         "company": "CIEDS",
-        "position": "UX/UI Designer",
-        "period": "Aug 2022 - Sep 2022",
+        "position": "Designer UX/UI",
+        "period": "Ago 2022 - Set 2022",
         "achievements": [
-            "• Successfully led a website redesign project, creating user flows, wireframes, and prototypes in Figma, which increased stakeholder satisfaction by 30%.",
-            "• Prioritized mobile responsiveness and accessibility by delivering 15 high-fidelity wireframes and 3 interactive prototypes, resulting in a 25% decrease in implementation time.",
-            "• Conducted user testing, uncovering a 40% improvement in task completion rates, ensuring an intuitive and user-friendly experience."
+            "• Liderei com sucesso um projeto de redesign de site, criando fluxos de usuário, wireframes e protótipos no Figma, o que aumentou a satisfação dos stakeholders em 30%.",
+            "• Priorizei responsividade mobile e acessibilidade, entregando 15 wireframes de alta fidelidade e 3 protótipos interativos, resultando em uma redução de 25% no tempo de implementação.",
+            "• Conduzi testes com usuários, identificando uma melhoria de 40% nas taxas de conclusão de tarefas, garantindo uma experiência intuitiva e amigável."
         ],
-        "context": "CIEDS is a social nonprofit institution, voted 67th Best NGO in the world and 3rd Best NGO in Brazil (NGO Advisor). We build networks for the prosperity of people, communities, and society based on knowledge, cooperation, and empowerment. We understand prosperity as better health, better food, better income, respect for one another and the environment, and, above all, confidence in our future.",
+        "context": "A CIEDS é uma instituição social sem fins lucrativos, eleita a 67ª melhor ONG do mundo e a 3ª melhor ONG do Brasil (NGO Advisor). Construímos redes para a prosperidade de pessoas, comunidades e da sociedade com base em conhecimento, cooperação e empoderamento. Entendemos prosperidade como mais saúde, mais alimento, mais renda, respeito mútuo e com o meio ambiente e, acima de tudo, confiança no futuro.",
         "technologies": [
             "• Figma"
         ],
         "activities": [
-            "• Designed user flows and developed wireframes and prototypes to enhance the website's interface.",
-            "• Delivered high-fidelity wireframes and interactive prototypes, prioritizing mobile responsiveness and accessibility.",
-            "• Conducted user testing to assess design effectiveness, leading to significant improvements in task completion rates."
+            "• Desenhei fluxos de usuário e desenvolvi wireframes e protótipos para aprimorar a interface do site.",
+            "• Entreguei wireframes de alta fidelidade e protótipos interativos, priorizando responsividade mobile e acessibilidade.",
+            "• Conduzi testes com usuários para avaliar a eficácia do design, gerando melhorias significativas nas taxas de conclusão de tarefas."
         ]
     },
     {
         "image": "/assets/image/lojas_quero_quero_s_a_logo.jpeg",
         "company": "Lojas Quero-Quero S.A.",
-        "position": "Web Development Intern",
-        "period": "Jan 2022 - Apr 2022",
+        "position": "Estagiário de Desenvolvimento Web",
+        "period": "Jan 2022 - Abr 2022",
         "achievements": [
-            "• Automated purchase processes by 40% through CSV integration, utilizing Node.js, Python, Docker, and CI/CD.",
-            "• Optimized system code and monitoring, reducing downtime by 15% and improving loading speed by 20%.",
-            "• Contributed to full-stack development, increasing team productivity by 10% and improving system reliability."
+            "• Automatizei processos de compra em 40% através de integração via CSV, utilizando Node.js, Python, Docker e CI/CD.",
+            "• Otimizei código e monitoramento do sistema, reduzindo o downtime em 15% e melhorando a velocidade de carregamento em 20%.",
+            "• Contribuí para o desenvolvimento fullstack, aumentando a produtividade da equipe em 10% e melhorando a confiabilidade do sistema."
         ],
-        "context": "I worked on full-stack development and process automation, focusing on efficient integrations and system performance optimization using Docker and monitoring tools.",
+        "context": "Trabalhei em desenvolvimento fullstack e automação de processos, com foco em integrações eficientes e otimização de performance do sistema usando Docker e ferramentas de monitoramento.",
         "technologies": [
             "• Node.js",
             "• Python",
@@ -93,10 +111,10 @@
             "• JavaScript"
         ],
         "activities": [
-            "• Gained hands-on experience in full-stack development, working with Node.js, Python, Docker, and CI/CD pipelines.",
-            "• Developed and maintained automated processes, improving system efficiency and reducing downtime by 15%.",
-            "• Optimized code performance, enhancing system reliability and increasing team productivity by 10%.",
-            "• Contributed to real-world projects, reinforcing best practices in software development and system optimization."
+            "• Ganhei experiência prática em desenvolvimento fullstack, trabalhando com Node.js, Python, Docker e pipelines de CI/CD.",
+            "• Desenvolvi e mantive processos automatizados, melhorando a eficiência do sistema e reduzindo o downtime em 15%.",
+            "• Otimizei a performance do código, melhorando a confiabilidade do sistema e aumentando a produtividade da equipe em 10%.",
+            "• Contribuí para projetos reais, reforçando boas práticas de desenvolvimento de software e otimização de sistemas."
         ]
     }
 ]

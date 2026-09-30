@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div className="w-full mx-auto px-8 md:px-10 lg:px-20 xl:px-32 pt-12 pb-20 dark:bg-gray-900">
             <Typography variant="h5" className="text-primary">
-                My Projects
+                Meus Projetos
             </Typography>
             <div className="grid gap-8 md:grid-cols-2 mt-8">
                 {projects.map((project, index) => (

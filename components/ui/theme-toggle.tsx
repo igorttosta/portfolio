@@ -51,7 +51,7 @@ const ThemeToggle = () => {
       variant="ghost"
       size="icon"
       onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
-      aria-label={`Switch to ${currentTheme === "dark" ? "light" : "dark"} mode`}
+      aria-label={`Mudar para o modo ${currentTheme === "dark" ? "claro" : "escuro"}`}
       className="h-9 w-9"
     >
       <SunIcon />

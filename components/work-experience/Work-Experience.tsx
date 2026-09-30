@@ -9,7 +9,7 @@ const WorkExperience = () => {
         <section className="w-full mx-auto px-8 md:px-10 lg:px-20 xl:px-32 pt-12 pb-20 dark:bg-gray-900">
             <div className="mb-6">
                 <Typography variant="h5" className="text-primary">
-                    Work Experience
+                    Experiência Profissional
                 </Typography>
             </div>
             <div className="grid gap-8">

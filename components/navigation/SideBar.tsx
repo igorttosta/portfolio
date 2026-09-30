@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import ThemeToggle from "../ui/theme-toggle";
-import { CodeXml, Folder, VideoIcon, MenuIcon, BriefcaseBusiness, CircleUser } from "lucide-react";
+import { CodeXml, Folder, MenuIcon, BriefcaseBusiness, CircleUser } from "lucide-react";
 
 interface NavigationItem {
   name: string;
@@ -29,11 +29,10 @@ interface NavigationItemProps {
 }
 
 const NAVIGATION_ITEMS: NavigationItem[] = [
-  { name: "Profile", link: "#profile", icon: CircleUser, external: false },
-  { name: "Projects", link: "#projects", icon: Folder, external: false },
-  { name: "Video", link: "#video", icon: VideoIcon, external: false },
-  { name: "Experiences", link: "#experiences", icon: BriefcaseBusiness, external: false },
-  { name: "Code", link: "https://github.com/igorttosta/portfolio", icon: CodeXml, target: "_blank", external: true },
+  { name: "Perfil", link: "#profile", icon: CircleUser, external: false },
+  { name: "Projetos", link: "#projects", icon: Folder, external: false },
+  { name: "Experiências", link: "#experiences", icon: BriefcaseBusiness, external: false },
+  { name: "Código", link: "https://github.com/igorttosta/portfolio", icon: CodeXml, target: "_blank", external: true },
 ];
 
 const NavigationItem: React.FC<NavigationItemProps> = ({ item, open, onClick }) => {
@@ -137,7 +136,7 @@ const Sidebar = () => {
     <nav
       className="fixed z-50 flex gap-6 min-h-screen"
       role="navigation"
-      aria-label="Main navigation"
+      aria-label="Navegação principal"
     >
       <div
         ref={sidebarRef}
@@ -152,7 +151,7 @@ const Sidebar = () => {
             variant="ghost"
             size="lg"
             onClick={() => setOpen(!open)}
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? "Fechar menu" : "Abrir menu"}
             aria-expanded={open}
             className="p-3 h-9 w-9"
           >

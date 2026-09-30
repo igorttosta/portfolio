@@ -14,10 +14,10 @@ interface ExperienceProps {
 const ExperienceDetails = ({ experience }: ExperienceProps) => {
     return (
         <div className="mt-4">
-            <Section title="Achievements" items={experience.achievements} />
-            <Section title="Context" text={experience.context} />
-            <Section title="Technologies" items={experience.technologies} />
-            <Section title="Activities" items={experience.activities} />
+            <Section title="Conquistas" items={experience.achievements} />
+            <Section title="Contexto" text={experience.context} />
+            <Section title="Tecnologias" items={experience.technologies} />
+            <Section title="Atividades" items={experience.activities} />
         </div>
     );
 };
