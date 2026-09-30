@@ -1,6 +1,6 @@
 [
     {
-        "image": "/assets/image/yuzer_logo.png",
+        "image": "/assets/image/yuzer_logo.jpg",
         "company": "Yuzer",
         "position": "Desenvolvedor de Software",
         "period": "Mai 2025 - Atual",
@@ -10,7 +10,15 @@
             "• Mantive a estabilidade contínua do sistema, entregando correções e melhorias técnicas alinhadas a requisitos de negócio."
         ],
         "context": "Atuo no desenvolvimento e na manutenção de um sistema de processamento de pedidos, com foco em estabilidade, diagnóstico e correção de incidentes críticos e evolução das regras de negócio do motor de precificação.",
-        "technologies": [],
+        "technologies": [
+            "• PHP 8",
+            "• WordPress",
+            "• MySQL",
+            "• MariaDB",
+            "• HTML5",
+            "• CSS3",
+            "• JavaScript"
+        ],
         "activities": [
             "• Diagnostiquei e corrigi incidentes críticos em produção, reduzindo indisponibilidades do sistema de processamento de pedidos.",
             "• Reestruturei regras de negócio do motor de precificação, reduzindo inconsistências e retrabalho.",
