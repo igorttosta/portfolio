@@ -3,10 +3,10 @@
         "name": "VetCare",
         "category": "Fullstack",
         "headerImg": "/assets/image/vetCare.png",
-        "description": "This project is a complete platform for managing veterinary clinics, allowing appointment scheduling, pet registration, and medical history tracking.",
-        "seeMore": { 
-            "url": "https://veterinary-5xdsjww4x-igor-tostas-projects.vercel.app/", 
-            "text": "Explore the hub..." 
+        "description": "Uma plataforma completa para gestão de clínicas veterinárias, permitindo agendamento de consultas, cadastro de pets e histórico médico.",
+        "seeMore": {
+            "url": "https://veterinary-5xdsjww4x-igor-tostas-projects.vercel.app/",
+            "text": "Explorar o projeto..."
         },
         "techs": [
             "Next.js",
@@ -19,10 +19,10 @@
             "MUI/Tailwind"
         ],
         "headerLinks": {
-            "link": { 
+            "link": {
                 "privateSource": false,
-                "url": "https://github.com/igorttosta/Point-Control", 
-                "icon": "IoLogoVercel" 
+                "url": "https://github.com/igorttosta/veterinary-web",
+                "icon": "IoLogoVercel"
             }
         }
     },
@@ -30,7 +30,7 @@
         "name": "Social-Network",
         "category": "Fullstack",
         "headerImg": "/assets/image/social-network.png",
-        "description": "This fullstack project is a social network that allows you to create a profile, a post, follow other profiles, comment on publications, among other points.",
+        "description": "Uma rede social fullstack que permite criar perfil, publicar posts, seguir outros perfis, comentar publicações, entre outras funcionalidades.",
         "techs": [
             "Node.js", 
             "RabbitMQ", 
@@ -51,7 +51,7 @@
         "name": "E-Commerce",
         "category": "Fullstack",
         "headerImg": "/assets/image/e-commerce.png",
-        "description": "A website built with the aim of purchasing and selling products, also has a quick purchase tool through an excel file.",
+        "description": "Um site construído para compra e venda de produtos, com uma ferramenta de compra rápida através de um arquivo Excel.",
         "techs": [
             "Node.js", 
             "HTML5", 
@@ -72,10 +72,10 @@
         "name": "CIEDS - Web Site",
         "category": "UI/UX Design",
         "headerImg": "/assets/image/cieds-website.png",
-        "description": "a prototype remodeling the appearance and user flow of the website made for an NGO",
-        "seeMore": { 
-            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web", 
-            "text": "Explore the prototype..." 
+        "description": "Um protótipo de reformulação da aparência e do fluxo de navegação do site de uma ONG.",
+        "seeMore": {
+            "url": "https://www.figma.com/proto/1pggvQQQXUzc8G0b6xWnwL/CIEDS-Web",
+            "text": "Explorar o protótipo..."
         },
         "techs": [
             "Figma"
@@ -90,9 +90,9 @@
     },
     {
         "name": "Kafka-Connect",
-        "category": "Data Engginer",
+        "category": "Engenharia de Dados",
         "headerImg": "/assets/image/data-migration.png",
-        "description": "A small-scale data migration project between two databases",
+        "description": "Um projeto de migração de dados em pequena escala entre dois bancos de dados.",
         "techs": [
             "Kafka", 
             "ksqlDB", 
@@ -112,10 +112,10 @@
         "name": "Point-Control",
         "category": "Fullstack",
         "headerImg": "/assets/image/point-control.png",
-        "description": "This project is a backend API built with NestJS that allows users to “clock in” and have a history of hours worked, it also has UX/UI modeling and a frontend to provide a better experience.",
-        "seeMore": { 
-            "url": "https://github.com/igorttosta/Point-Control", 
-            "text": "Explore the hub..." 
+        "description": "Uma API backend construída com NestJS que permite aos usuários registrar ponto e ter um histórico de horas trabalhadas, com modelagem UX/UI e um frontend para melhor experiência.",
+        "seeMore": {
+            "url": "https://github.com/igorttosta/Point-Control",
+            "text": "Explorar o projeto..."
         },
         "techs": [
             "Nest.js",

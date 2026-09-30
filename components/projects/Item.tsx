@@ -53,7 +53,7 @@ const PrivateSourceButton = () => (
             rel="noopener noreferrer"
         >
             <LockKeyhole className="h-4 w-4 transition-transform group-hover:scale-110" />
-            <span>Private source</span>
+            <span>Código privado</span>
         </Link>
     </Button>
 )
@@ -100,7 +100,7 @@ export default function Item({
                                     rel="noopener noreferrer"
                                 >
                                     {IconComponent && <IconComponent className="h-4 w-4" />}
-                                    View Source
+                                    Ver código-fonte
                                 </Link>
                             </Button>
                         )}

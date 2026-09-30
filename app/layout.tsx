@@ -6,9 +6,20 @@ import Theme from "../context/theme-provider";
 import MuiThemeProvider from "../context/mui-theme-provider";
 
 export const metadata: Metadata = {
-  title: "Igor Tosta | Full-stack developer | Personal portfolio",
+  metadataBase: new URL("https://itm-portfolio.vercel.app"),
+  title: "Igor Tosta | Desenvolvedor Full-stack | Portfólio Pessoal",
+  description: "Portfólio de Igor Tosta, Desenvolvedor Full-stack com experiência em Node.js, React, Java/Spring Boot e arquitetura de microsserviços.",
   icons: {
     icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Igor Tosta | Desenvolvedor Full-stack",
+    description: "Portfólio de Igor Tosta, Desenvolvedor Full-stack com experiência em Node.js, React, Java/Spring Boot e arquitetura de microsserviços.",
+    url: "https://itm-portfolio.vercel.app",
+    siteName: "Igor Tosta | Portfólio",
+    images: ["/assets/image/it-image.png"],
+    locale: "pt_BR",
+    type: "website",
   },
 };
 
@@ -26,7 +37,7 @@ const eduNSW = Edu_NSW_ACT_Foundation({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html lang="pt-BR" className="dark" suppressHydrationWarning>
       <body className={`${orbitron.variable} ${eduNSW.variable}`}>
         <Theme>
           <MuiThemeProvider>

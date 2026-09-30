@@ -1,34 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
-import React, { useState } from 'react';
-import Link from "next/link";
+import React from 'react';
 import Typography from "@mui/material/Typography";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import { GithubIcon, LinkedinIcon, Contact } from 'lucide-react';
-import NestedModal from "@/components/Modal";
+import SocialLinks from "@/components/SocialLinks";
 import About from "../json/about.json";
-
-// Social links data
-const SOCIAL_LINKS = [
-  {
-    icon: LinkedinIcon,
-    href: "https://www.linkedin.com/in/matos-igor-tosta/",
-    label: "LinkedIn",
-    hoverColor: "hover:bg-[#0077b5]"
-  },
-  {
-    icon: GithubIcon,
-    href: "https://github.com/igorttosta",
-    label: "GitHub",
-    hoverColor: "hover:bg-[#333]"
-  },
-  {
-    icon: Contact,
-    label: "Contact",
-    hoverColor: "hover:bg-[#d44638]",
-    isModal: true
-  }
-];
 
 const ProfileImage = () => (
   <div className="relative group mx-auto w-fit">
@@ -48,42 +24,6 @@ const ProfileImage = () => (
   </div>
 );
 
-const SocialLinks = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <>
-      <NestedModal open={isOpen} onClose={() => setIsOpen(false)} />
-
-      <div className="flex flex-wrap gap-10 justify-center">
-      {SOCIAL_LINKS.map(({ icon: Icon, href, label, hoverColor, isModal }) =>
-        isModal ? (
-          <button
-            key={label}
-            onClick={() => setIsOpen(true)}
-            className={`group relative p-2 md:p-3 bg-background dark:bg-background/80 rounded-full text-foreground transition-all duration-300 ${hoverColor} hover:text-white`}
-            aria-label={label}
-          >
-            <Icon className="h-5 w-5 md:h-6 md:w-6 transition-transform group-hover:scale-110 duration-300" />
-          </button>
-        ) : href ? (
-          <Link
-            key={label}
-            href={href}
-            target={href.startsWith("http") ? "_blank" : undefined}
-            rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
-            className={`group relative p-2 md:p-3 bg-background dark:bg-background/80 rounded-full text-foreground transition-all duration-300 ${hoverColor} hover:text-white`}
-            aria-label={label}
-          >
-            <Icon className="h-5 w-5 md:h-6 md:w-6 transition-transform group-hover:scale-110 duration-300" />
-          </Link>
-        ) : null
-      )}
-      </div>
-    </>
-  );
-}
-  
 const Profile = () => {
   return (
     <main className="relative min-h-screen bg-gradient-to-br from-background to-background/95 flex items-center justify-center p-4 overflow-hidden">
@@ -99,7 +39,7 @@ const Profile = () => {
               <header className="space-y-4">
                 <div className="font-edu-nsw text-2xl md:text-3xl">
                   <Typography variant="h5" className="bg-gradient-to-r from-primary to-violet-500 bg-clip-text text-transparent">
-                      About me
+                      Sobre mim
                   </Typography>
                 </div>
               </header>
@@ -109,15 +49,15 @@ const Profile = () => {
                   className="space-y-3 text-lg md:text-xl text-muted-foreground leading-relaxed"
                 >
                   <Typography variant="body1">
-                    {`Experienced Software Engineer with a solid background in fullstack development, 
-                    backend systems, and microservices architecture, specialized in building robust 
-                    and scalable applications.
+                    {`Engenheiro de Software com base sólida em desenvolvimento fullstack, sistemas
+                    backend e arquitetura de microsserviços, especializado em construir aplicações
+                    robustas e escaláveis.
 
-                    I have over 3 years of experience creating and maintaining high-performance 
-                    systems, always aiming to enhance user experience and improve overall 
-                    system reliability.`}
+                    Tenho 4 anos de experiência criando e mantendo sistemas de alta performance,
+                    sempre buscando melhorar a experiência do usuário e a confiabilidade geral
+                    do sistema.`}
                   </Typography>
-                  <Typography variant="body1">Technologies:</Typography>
+                  <Typography variant="body1">Tecnologias:</Typography>
                   <ul className="bg-gradient-to-r from-primary to-violet-500 bg-clip-text text-transparent">
                     {item.tecnologies.map((technology, techIndex) => (
                       <li key={techIndex}> {/* Aqui também adicionamos uma key única */}
@@ -126,12 +66,13 @@ const Profile = () => {
                     ))}
                   </ul>
                   <Typography variant="body1">
-                    {`Passionate about solving complex challenges, I thrive in dynamic environments, 
-                    focusing on delivering quality work that adds value to the product and enhances 
-                    user experience.
+                    {`Apaixonado por resolver desafios complexos, prospero em ambientes dinâmicos,
+                    focando em entregar um trabalho de qualidade que agrega valor ao produto e
+                    melhora a experiência do usuário.
 
-                    Committed to continuous learning, I embrace new technologies and industry trends 
-                    while fostering collaboration and teamwork to achieve common goals and drive success.`}
+                    Comprometido com o aprendizado contínuo, abraço novas tecnologias e tendências
+                    do mercado, ao mesmo tempo em que promovo colaboração e trabalho em equipe para
+                    alcançar objetivos em comum e impulsionar resultados.`}
                   </Typography>
                 </AccordionDetails>
               ))}
