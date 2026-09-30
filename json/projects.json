@@ -1,28 +1,24 @@
 [
     {
-        "name": "VetCare",
+        "name": "Clínica Vet",
         "category": "Fullstack",
-        "headerImg": "/assets/image/vetCare.png",
-        "description": "Uma plataforma completa para gestão de clínicas veterinárias, permitindo agendamento de consultas, cadastro de pets e histórico médico.",
-        "seeMore": {
-            "url": "https://veterinary-5xdsjww4x-igor-tostas-projects.vercel.app/",
-            "text": "Explorar o projeto..."
-        },
+        "headerImg": "/assets/image/clinica-vet.jpg",
+        "description": "Plataforma de gestão para clínicas veterinárias: tutores e pets, agendamentos, prontuário, vacinas e painel administrativo com permissões por perfil. Web, API e app mobile em um monorepo.",
         "techs": [
             "Next.js",
+            "TypeScript",
             "NestJS",
-            "Kafka",
-            "Docker",
             "PostgreSQL",
-            "Jest",
+            "Prisma",
             "React Native",
+            "TanStack Query",
             "MUI/Tailwind"
         ],
         "headerLinks": {
             "link": {
                 "privateSource": false,
-                "url": "https://github.com/igorttosta/veterinary-web",
-                "icon": "IoLogoVercel"
+                "url": "https://github.com/igorttosta/clinica-vet",
+                "icon": "BsGithub"
             }
         }
     },
