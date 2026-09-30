@@ -19,10 +19,10 @@
             "MUI/Tailwind"
         ],
         "headerLinks": {
-            "link": { 
+            "link": {
                 "privateSource": false,
-                "url": "https://github.com/igorttosta/Point-Control", 
-                "icon": "IoLogoVercel" 
+                "url": "https://github.com/igorttosta/veterinary-web",
+                "icon": "IoLogoVercel"
             }
         }
     },

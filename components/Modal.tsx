@@ -40,9 +40,9 @@ export default function NestedModal({ open, onClose }: NestedModalProps) {
                 </h2>
                 <p className="text-xl">
                     <br/>
-                    📩 <strong>matositosta@gmail.com</strong>
+                    📩 <a href="mailto:matositosta@gmail.com"><strong>matositosta@gmail.com</strong></a>
                     <br/>
-                    📲 <strong>+55 74 9 9144-9651</strong>
+                    📲 <a href="tel:+5574991449651"><strong>+55 74 9 9144-9651</strong></a>
                 </p>
             </Box>
         </Modal>
