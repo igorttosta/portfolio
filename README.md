@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio · Igor Tosta
 
-## Getting Started
+Meu portfólio pessoal: apresentação, experiências profissionais e projetos, com tema claro e escuro.
 
-First, run the development server:
+🔗 **[Acessar o portfólio](https://portfolio-orpin-kappa-64.vercel.app)**
+
+## Funcionalidades
+
+- Apresentação com links para LinkedIn e GitHub, e contato por e-mail em um modal
+- Experiências profissionais com contexto, conquistas, atividades e tecnologias de cada cargo
+- Vitrine de projetos com imagem, descrição, stack e links para código e demo
+- Tema claro e escuro
+- Layout responsivo e chamada final para contato
+
+## Destaques técnicos
+
+- **Conteúdo separado da interface**: experiências, projetos e stack ficam em arquivos JSON (`json/`), então atualizar o portfólio não exige mexer nos componentes
+- **Next.js com App Router**, gerado como página estática
+- **Tailwind CSS** junto com componentes do **MUI**, com o tema sincronizado entre os dois via `next-themes`
+
+## Stack
+
+- [Next.js 15](https://nextjs.org/) e React 19
+- TypeScript
+- Tailwind CSS e MUI
+- Deploy na Vercel
+
+## Como rodar
+
+Pré-requisito: Node.js 18.18 ou superior.
 
 ```bash
+git clone https://github.com/igorttosta/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/         Layout e página principal
+components/  Seções do portfólio (perfil, experiências, projetos, navegação)
+json/        Conteúdo: experiências, projetos e stack
+public/      Imagens e ícones
+```
 
-## Learn More
+## Autor
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feito por **Igor Tosta** · [LinkedIn](https://www.linkedin.com/in/matos-igor-tosta/) · [GitHub](https://github.com/igorttosta)
