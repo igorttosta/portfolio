@@ -7,13 +7,19 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { ExternalLink, LockKeyhole } from 'lucide-react'
+import { ExternalLink, LockKeyhole, PlayCircle } from 'lucide-react'
 import Typography from "@mui/material/Typography";
 
 interface HeaderLink {
     privateSource: boolean
     url?: string
     icon?: string
+    label?: string
+}
+
+interface PreviewLink {
+    url: string
+    label?: string
 }
 
 interface SeeMore {
@@ -32,6 +38,7 @@ interface ItemProps {
     techs: string[]
     headerLinks: {
         link: HeaderLink
+        preview?: PreviewLink
     }
 }
 
@@ -88,19 +95,32 @@ export default function Item({
                         alt={name}
                     />
 
-                    <div className={`absolute inset-0 flex items-center justify-center z-20 bg-background/10 backdrop-blur-sm transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className={`absolute inset-0 flex items-center justify-center gap-2 z-20 bg-background/10 backdrop-blur-sm transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
                         {headerLinks.link.privateSource ? (
                             <PrivateSourceButton />
                         ) : (
                             <Button variant="secondary" size="sm" asChild className="transform -translate-y-2 transition-all duration-300 hover:scale-105">
-                                <Link 
-                                    href={headerLinks.link.url || "#"} 
+                                <Link
+                                    href={headerLinks.link.url || "#"}
                                     className="flex items-center gap-2 group"
-                                    target="_blank" 
+                                    target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     {IconComponent && <IconComponent className="h-4 w-4" />}
-                                    Ver código-fonte
+                                    {headerLinks.link.label || "Ver código-fonte"}
+                                </Link>
+                            </Button>
+                        )}
+                        {headerLinks.preview && (
+                            <Button variant="secondary" size="sm" asChild className="transform -translate-y-2 transition-all duration-300 hover:scale-105">
+                                <Link
+                                    href={headerLinks.preview.url}
+                                    className="flex items-center gap-2 group"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <PlayCircle className="h-4 w-4" />
+                                    {headerLinks.preview.label || "Prévia"}
                                 </Link>
                             </Button>
                         )}
