@@ -19,6 +19,7 @@ const Projects = () => {
                         headerImg={project.headerImg}
                         description={project.description}
                         seeMore={project.seeMore}
+                        demoCredentials={project.demoCredentials}
                         techs={project.techs}
                         headerLinks={project.headerLinks}
                     />

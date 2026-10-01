@@ -7,18 +7,13 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { ExternalLink, LockKeyhole, PlayCircle } from 'lucide-react'
+import { ExternalLink, LockKeyhole, KeyRound } from 'lucide-react'
 import Typography from "@mui/material/Typography";
 
 interface HeaderLink {
     privateSource: boolean
     url?: string
     icon?: string
-    label?: string
-}
-
-interface PreviewLink {
-    url: string
     label?: string
 }
 
@@ -35,10 +30,10 @@ interface ItemProps {
     description: string
     headerImg: string
     seeMore?: SeeMore
+    demoCredentials?: string
     techs: string[]
     headerLinks: {
         link: HeaderLink
-        preview?: PreviewLink
     }
 }
 
@@ -71,6 +66,7 @@ export default function Item({
     headerImg,
     description,
     seeMore,
+    demoCredentials,
     techs,
     headerLinks,
 }: ItemProps) {
@@ -95,7 +91,7 @@ export default function Item({
                         alt={name}
                     />
 
-                    <div className={`absolute inset-0 flex items-center justify-center gap-2 z-20 bg-background/10 backdrop-blur-sm transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className={`absolute inset-0 flex items-center justify-center z-20 bg-background/10 backdrop-blur-sm transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
                         {headerLinks.link.privateSource ? (
                             <PrivateSourceButton />
                         ) : (
@@ -108,19 +104,6 @@ export default function Item({
                                 >
                                     {IconComponent && <IconComponent className="h-4 w-4" />}
                                     {headerLinks.link.label || "Ver código-fonte"}
-                                </Link>
-                            </Button>
-                        )}
-                        {headerLinks.preview && (
-                            <Button variant="secondary" size="sm" asChild className="transform -translate-y-2 transition-all duration-300 hover:scale-105">
-                                <Link
-                                    href={headerLinks.preview.url}
-                                    className="flex items-center gap-2 group"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <PlayCircle className="h-4 w-4" />
-                                    {headerLinks.preview.label || "Prévia"}
                                 </Link>
                             </Button>
                         )}
@@ -150,6 +133,12 @@ export default function Item({
                             <ExternalLink className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
                         </Link>{" "}
                         {seeMore.after}
+                    </Typography>
+                )}
+                {demoCredentials && (
+                    <Typography variant="body2" className="text-xs text-muted-foreground inline-flex items-center gap-1">
+                        <KeyRound className="h-3 w-3 shrink-0" />
+                        {demoCredentials}
                     </Typography>
                 )}
             </CardContent>
