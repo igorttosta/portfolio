@@ -44,6 +44,31 @@
         }
     },
     {
+        "name": "Nosso Álbum",
+        "category": "Fullstack",
+        "headerImg": "/assets/image/nosso-album.jpg",
+        "description": "Álbum de fotos privado em que cada álbum pode ter a sua própria trilha sonora do Spotify, com reprodução completa. Criei como presente.",
+        "techs": [
+            "Next.js",
+            "Prisma",
+            "PostgreSQL",
+            "OAuth",
+            "Cloudinary"
+        ],
+        "headerLinks": {
+            "link": {
+                "privateSource": false,
+                "url": "https://site-presente-rust.vercel.app",
+                "icon": "IoLogoVercel",
+                "label": "Ver demonstração"
+            },
+            "preview": {
+                "url": "/assets/preview/nosso-album-demo.gif",
+                "label": "Prévia"
+            }
+        }
+    },
+    {
         "name": "E-Commerce",
         "category": "Fullstack",
         "headerImg": "/assets/image/e-commerce.png",
